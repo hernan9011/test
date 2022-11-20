@@ -1,0 +1,11 @@
+^sep(Mabox User Guide)
+1. Introduction to Mabox Linux Desktop,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/getting-started/intro-desktop/,distributor-logo-mabox
+2. Software Management,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/getting-started/software-management/,distributor-logo-mabox
+3. Keyboard shortcuts,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/getting-started/keyboard-shortcuts/,distributor-logo-mabox
+4. Default/Preferred Apllications,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/apps/preferred-apps/,distributor-logo-mabox
+5. PCManFM - file manager,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/apps/pcmanfm/,distributor-logo-mabox
+6. Terminator - terminal emulator,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/apps/terminator/,distributor-logo-mabox
+7. Mabox Control Center,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/configuration/mcc/,distributor-logo-mabox
+8. Theme Manager,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/configuration/theme-manager/,distributor-logo-mabox
+^sep(More...)
+Autostart,exo-open --launch WebBrowser https://manual.maboxlinux.org/mabox-doc-en/configuration/autostart/,distributor-logo-mabox
