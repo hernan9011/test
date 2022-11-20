@@ -1,0 +1,9 @@
+^sep(Favoritos)
+Terminal,exo-open --launch TerminalEmulator,utilities-terminal
+Navegador Internet,exo-open --launch WebBrowser,firefox
+Gestor de archivos,exo-open --launch FileManager,system-file-manager
+Agregar/Quitar software,pamac-manager,package-manager-icon
+^sep()
+Ajustes,^checkout(settings),applications-utilities
+^sep(Aplicaciones)
+#^sep()

@@ -1,0 +1,32 @@
+^sep(Configuración)
+Centro de Control Mabox,mcc,distributor-logo-mabox
+^sep(Paneles Tint2)
+Add/remove launchers...,jgtint2launcher,tint2
+Paneles Tint2,^pipe(jgtint2-pipe),tint2conf
+^sep(Temas de Mabox)
+Gestor de Temas,mb-obthemes,preferences-desktop-theme
+^sep(Escritorio)
+Fondos de pantalla,^pipe(jgwallpaperchanger),nitrogen
+Colorizer,colorizer -s,colorizer
+Apariencia,lxappearance,preferences-desktop-theme
+Reload GTK,reload-gtk,reload
+^sep()
+Menu / Paneles laterales,^pipe(jgmenusettings-pipe),menu-editor
+Recuadros Conky,^pipe(jgconky-pipe),desktop-effects
+Compositor gráfico,^pipe(jgpicom-pipe menu),compton
+Notificaciones,xfce4-notifyd-config,xfce4-notifyd
+^sep()
+Resolución de pantalla,arandr,display
+Resolución de pantalla (LXRandR),lxrandr,display
+^sep(Otros ajustes)
+Aplicaciones preferidas,exo-preferred-applications,preferences-desktop-default-applications
+Ajustes de energía,mate-power-preferences,mate-power-manager
+Gestor Inicio de sesión,lightdm-gtk-greeter-settings-pkexec,lightdm-gtk-greeter-settings
+Mouse e teclado,lxinput,keyboard
+^sep(Openbox)
+Ajustes de Openbox,obconf,obconf
+Reinicio,^checkout(autostart),geany
+RC - ajustes de archivo,xdg-open ~/.config/openbox/rc.xml,geany
+Reconfigurar Openbox,openbox --reconfigure,openbox
+^sep()
+Editar Configuración Menu,xdg-open ~/.config/mabox/settings.csv,geany

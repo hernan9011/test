@@ -1,0 +1,30 @@
+### Your own commands in left sidepanel (ctrl + win + left) - BOTTOM
+#
+# Syntax
+# Commands:
+# Label,command,icon (optional)
+#
+# ^sep()  # separator - line
+# ^sep(NAME) # separator 
+#
+# Comment out line to disable
+##########################
+^sep(Agrega tus programas aquí)
+<b>Colorizer</b>,colorizer -s
+<b>FSearch</b> - <i>Buscar archivos</i>,fsearch
+<b>PyRadio</b> - <i>Radios de Internet</i>,terminator -T "PyRadio" --geometry=420x440-20-20 -e "pyradio -p"
+#Newsboat - <i>Lector de RSS</i>,^term(newsboat)
+Administrador de tareas GUI,lxtask
+<b>btop</b> monitor de recursos,^term(btop)
+Pronóstico del tiempo,terminator -T "Pronóstico del tiempo" --geometry=1030x740 -e "curl es.wttr.in ; read"
+#<b>Terminator</b> <i>(advanced demo)</i>,terminator -m -j ~/.config/terminator/2-3-grid.json
+^sep()
+Random <b>ColorScheme</b>,mb-setvar jgmenu_theme=$(basename -s .colorrc $(ls ~/.config/mabox/jgobthemes/*.colorrc | shuf -n 1));mb-jgtools places
+Random <b>Wallpaper</b>,nitrogen --random /usr/share/backgrounds --set-scaled --save;mb-jgtools places
+#Logout Dialog
+^sep()
+Salir...,mb-jgtools mblogout
+^sep()
+
+# or all logout options
+#. ~/.config/mabox/exit.csv

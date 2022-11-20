@@ -1,0 +1,4 @@
+^tag(autostart)
+^sep(Reinicio)
+Elegir apps/servicios del editor gráfico,yautostart,gtk-execute
+Editar el archivo de reinicio (avanzado),xdg-open ~/.config/openbox/autostart,geany
